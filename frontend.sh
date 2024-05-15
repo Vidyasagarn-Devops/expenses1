@@ -24,7 +24,7 @@ cd /usr/share/nginx/html &>>$LOG_FILE
 unzip /tmp/frontend.zip &>>$LOG_FILE
 VALIDATE $? "Extracting HTML Code"
 
-cp /home/ec2-user/expenses/expense.conf /etc/nginx/default.d/expense.conf &>>$LOG_FILE
+cp /home/ec2-user/expenses1/expense.conf /etc/nginx/default.d/expense.conf &>>$LOG_FILE
 VALIDATE $? "copied expense conf"
 
 
